@@ -10,7 +10,7 @@ export default class MyApp extends App {
 
         router.configure([
             { pattern: '', view: HomeViewControl },
-            { pattern: 'create/:createPost', view: CreateViewControl }
+            { pattern: 'createPost', view: CreateViewControl }
         ]);
     }
     error(ev: events.ErrorEvent<Error>): void {

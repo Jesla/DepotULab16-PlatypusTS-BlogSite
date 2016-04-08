@@ -1,3 +1,6 @@
+// have to create a new "services" page, called "post" to get blog posts from server
+// also create a new repository called "post"
+
 import {register} from 'platypus';
 import BaseViewControl from '../base/base.vc';
 
